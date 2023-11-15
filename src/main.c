@@ -26,10 +26,10 @@ int main() {
     semaphores_names[1] = "/semaphoreTwo"; // семафор для child2
     semaphores_names[2] = "/semaphoreThree"; // семафор для parent
 
-    shm_unlink(mmapped_file_name);
-    sem_unlink(semaphores_names[0]);
-    sem_unlink(semaphores_names[1]);
-    sem_unlink(semaphores_names[2]);
+    // shm_unlink(mmapped_file_name);
+    // sem_unlink(semaphores_names[0]);
+    // sem_unlink(semaphores_names[1]);
+    // sem_unlink(semaphores_names[2]);
     
     int mmapped_file_descriptor;
     char* mmapped_file_pointer;
